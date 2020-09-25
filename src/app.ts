@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import store from './store'
-
+import support from './support'
 import './app.scss'
 
 const App = createApp({
@@ -9,5 +9,6 @@ const App = createApp({
 })
 
 App.use(store)
+App.use(support)
 
 export default App
